@@ -1,0 +1,1 @@
+variable "DEVOPS_PROJ" { }
