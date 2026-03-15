@@ -117,10 +117,10 @@ This configures **remote state storage**.
 ```hcl
 terraform {
   backend "s3" {
-    bucket = "todoapp-project-s3-bucket"
+    bucket = "Enter-bucket-name"
     key    = "backend/ToDo-App.tfstate"
     region = "ap-south-1"
-    dynamodb_table = "todoapp-dynamoadb-table"
+    dynamodb_table = "Enter-table-name"
   }
 }
 ```
